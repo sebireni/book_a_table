@@ -1,0 +1,46 @@
+#intro {
+  width: 90vw;
+  margin: auto auto 50px;
+  padding: 60px;
+  border-radius: 10px 50px;
+  font-family: "Amatic SC", cursive;
+  color: #fff;
+  background-color: rgba(30, 255, 0, 0.2);
+}
+
+#intro h2 {
+  font-size: 54px;
+}
+
+#intro .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#intro .wrap p {
+  font-size: 24px;
+  width: 100%;
+  text-align: justify;
+}
+
+#intro .wrap #signature {
+  text-align: right;
+  font-family: "Tangerine";
+  font-size: 32px;
+}
+
+#intro .wrap img {
+  border: 10px solid white;
+  min-width: 300px;
+  width: 40%;
+  margin-top: 60px;
+}
+/*# sourceMappingURL=Intro.css.map */

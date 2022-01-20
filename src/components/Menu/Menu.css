@@ -1,0 +1,322 @@
+#menuSection h2 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-family: "Amatic SC", cursive;
+  font-size: 54px;
+  color: #fff;
+}
+
+#menuSection #pizza {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25vw 25vw 25vw 25vw;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+  -ms-grid-rows: 20vh 25vh 25vh 50vh;
+  grid-template-rows: 20vh 25vh 25vh 50vh;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+#menuSection #pizza #pizzaPie {
+  -webkit-transform: scale(85%);
+  transform: scale(85%);
+  position: relative;
+  left: 7%;
+  list-style: none;
+  width: 500px;
+  height: 500px;
+  padding: 0;
+  z-index: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#menuSection #pizza #pizzaPie li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#menuSection #pizza #pizzaPie li img {
+  width: 200px;
+  z-index: 4;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+}
+
+#menuSection #pizza #pizzaPie li #one {
+  position: absolute;
+  left: 20%;
+  top: -5%;
+}
+
+#menuSection #pizza #pizzaPie li #one:hover {
+  -webkit-transform: translateY(-20%) scale(115%);
+  transform: translateY(-20%) scale(115%);
+}
+
+#menuSection #pizza #pizzaPie li #two {
+  position: absolute;
+  top: 3%;
+  left: -2%;
+}
+
+#menuSection #pizza #pizzaPie li #two:hover {
+  -webkit-transform: translate(-20%, -15%) scale(115%);
+  transform: translate(-20%, -15%) scale(115%);
+}
+
+#menuSection #pizza #pizzaPie li #three {
+  position: absolute;
+  top: 40%;
+  left: -2%;
+  z-index: 3;
+}
+
+#menuSection #pizza #pizzaPie li #three:hover {
+  -webkit-transform: translate(-20%, 15%) scale(115%);
+  transform: translate(-20%, 15%) scale(115%);
+}
+
+#menuSection #pizza #pizzaPie li #four {
+  position: absolute;
+  left: 22%;
+  top: 42%;
+  z-index: 2;
+}
+
+#menuSection #pizza #pizzaPie li #four:hover {
+  -webkit-transform: translateY(20%) scale(115%);
+  transform: translateY(20%) scale(115%);
+}
+
+#menuSection #pizza #pizzaPie li #five {
+  position: absolute;
+  top: 39%;
+  right: 15%;
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+#menuSection #pizza #pizzaPie li #five:hover {
+  -webkit-transform: translate(20%, 15%) scale(115%);
+  transform: translate(20%, 15%) scale(115%);
+}
+
+#menuSection #pizza #pizzaPie li #six {
+  position: absolute;
+  top: 5%;
+  right: 18%;
+}
+
+#menuSection #pizza #pizzaPie li #six:hover {
+  -webkit-transform: translate(20%, -15%) scale(115%);
+  transform: translate(20%, -15%) scale(115%);
+}
+
+#menuSection #pizza h3,
+#menuSection #pizza h4,
+#menuSection #pizza p {
+  font-family: "Amatic SC", cursive;
+  color: #fff;
+}
+
+#menuSection #pizza p {
+  font-size: 24px;
+}
+
+#menuSection #pizza h3 {
+  font-size: 32px;
+}
+
+#menuSection #pizza h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto 0 auto auto;
+}
+
+#menuSection #pizza .details {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-item-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+#menuSection #pizza #margarita {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 /5;
+}
+
+#menuSection #pizza #salami {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
+}
+
+#menuSection #pizza #oliv {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+}
+
+#menuSection #pizza #vegetarian {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / 5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+}
+
+#menuSection #pizza #see {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  -ms-grid-row: 4;
+  grid-row-start: 4;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#menuSection #pizza #mushroom {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / 5;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / 5;
+}
+
+@media screen and (max-width: 940px) {
+  #menuSection #pizza {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 941px) {
+  #menuSection #pizzaMob {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  #menuSection #pizza {
+    -webkit-transform: scale(90%);
+    transform: scale(90%);
+  }
+}
+
+@media screen and (max-height: 750px) {
+  #menuSection #pizza {
+    -webkit-transform: scale(80%);
+    transform: scale(80%);
+  }
+}
+
+@media screen and (max-height: 700px) {
+  #menuSection #pizza {
+    -webkit-transform: scale(70%);
+    transform: scale(70%);
+    top: -50px;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  #menuSection #pizza {
+    -webkit-transform: scale(60%);
+    transform: scale(60%);
+    top: -100px;
+  }
+}
+
+#menuSection #pizzaMob {
+  font-family: "Amatic SC", cursive;
+  color: #fff;
+}
+
+#menuSection #pizzaMob h2 {
+  font-size: 54px;
+  position: relative;
+  text-align: center;
+  left: 0;
+  margin-bottom: 50px;
+}
+
+#menuSection #pizzaMob h3 {
+  font-size: 45px;
+  text-align: center;
+  color: green;
+}
+
+#menuSection #pizzaMob h4,
+#menuSection #pizzaMob p {
+  font-size: 26px;
+  text-align: center;
+}
+
+#menuSection #pizzaMob hr {
+  border: 1px dotted red;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#menuSection #pizzaMob #pizzaList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#menuSection #pizzaMob #pizzaList li img {
+  width: 70%;
+  margin: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+#menuSection #pizzaMob #pizzaList li img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=Menu.css.map */
