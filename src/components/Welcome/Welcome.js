@@ -5,10 +5,10 @@ import Logo from './Logo/Logo'
 
 function Welcome() {
     return (
-        <section id="welcome">
-            <img id="halfPizza" src={halfpizza} alt="" />
+        <section id='welcome'>
+            <img id='halfPizza' src={halfpizza} alt='pizza' />
 
-            <div id="textWrapper">
+            <div id='textWrapper'>
                 <Logo />
                 <h1>Pizza Seekers'</h1>
             </div>

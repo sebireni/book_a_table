@@ -6,7 +6,7 @@ import Modal from './components/Modal/Modal';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Welcome /> 
       <Intro />
       <Menu />

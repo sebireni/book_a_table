@@ -2,7 +2,7 @@
   position: absolute;
   top: 5%;
   left: 5%;
-  font-family: "Amatic SC", cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 54px;
   color: #fff;
 }
@@ -12,16 +12,16 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 25vw 25vw 25vw 25vw;
-  grid-template-columns: 25vw 25vw 25vw 25vw;
+      grid-template-columns: 25vw 25vw 25vw 25vw;
   -ms-grid-rows: 20vh 25vh 25vh 50vh;
-  grid-template-rows: 20vh 25vh 25vh 50vh;
+      grid-template-rows: 20vh 25vh 25vh 50vh;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 #menuSection #pizza #pizzaPie {
   -webkit-transform: scale(85%);
-  transform: scale(85%);
+          transform: scale(85%);
   position: relative;
   left: 7%;
   list-style: none;
@@ -30,13 +30,13 @@
   padding: 0;
   z-index: 3;
   -ms-grid-column: 2;
-  grid-column-start: 2;
+      grid-column-start: 2;
   grid-column-end: 4;
   -ms-grid-row: 2;
-  grid-row-start: 2;
+      grid-row-start: 2;
   grid-row-end: 4;
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
 }
 
 #menuSection #pizza #pizzaPie li {
@@ -51,7 +51,7 @@
   width: 200px;
   z-index: 4;
   -webkit-transition-duration: 300ms;
-  transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 
 #menuSection #pizza #pizzaPie li #one {
@@ -62,7 +62,7 @@
 
 #menuSection #pizza #pizzaPie li #one:hover {
   -webkit-transform: translateY(-20%) scale(115%);
-  transform: translateY(-20%) scale(115%);
+          transform: translateY(-20%) scale(115%);
 }
 
 #menuSection #pizza #pizzaPie li #two {
@@ -73,7 +73,7 @@
 
 #menuSection #pizza #pizzaPie li #two:hover {
   -webkit-transform: translate(-20%, -15%) scale(115%);
-  transform: translate(-20%, -15%) scale(115%);
+          transform: translate(-20%, -15%) scale(115%);
 }
 
 #menuSection #pizza #pizzaPie li #three {
@@ -85,7 +85,7 @@
 
 #menuSection #pizza #pizzaPie li #three:hover {
   -webkit-transform: translate(-20%, 15%) scale(115%);
-  transform: translate(-20%, 15%) scale(115%);
+          transform: translate(-20%, 15%) scale(115%);
 }
 
 #menuSection #pizza #pizzaPie li #four {
@@ -97,7 +97,7 @@
 
 #menuSection #pizza #pizzaPie li #four:hover {
   -webkit-transform: translateY(20%) scale(115%);
-  transform: translateY(20%) scale(115%);
+          transform: translateY(20%) scale(115%);
 }
 
 #menuSection #pizza #pizzaPie li #five {
@@ -105,12 +105,12 @@
   top: 39%;
   right: 15%;
   -webkit-transform: rotate(-2deg);
-  transform: rotate(-2deg);
+          transform: rotate(-2deg);
 }
 
 #menuSection #pizza #pizzaPie li #five:hover {
   -webkit-transform: translate(20%, 15%) scale(115%);
-  transform: translate(20%, 15%) scale(115%);
+          transform: translate(20%, 15%) scale(115%);
 }
 
 #menuSection #pizza #pizzaPie li #six {
@@ -121,13 +121,13 @@
 
 #menuSection #pizza #pizzaPie li #six:hover {
   -webkit-transform: translate(20%, -15%) scale(115%);
-  transform: translate(20%, -15%) scale(115%);
+          transform: translate(20%, -15%) scale(115%);
 }
 
 #menuSection #pizza h3,
 #menuSection #pizza h4,
 #menuSection #pizza p {
-  font-family: "Amatic SC", cursive;
+  font-family: 'Amatic SC', cursive;
   color: #fff;
 }
 
@@ -151,12 +151,12 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-item-align: center;
-  align-self: center;
+      align-self: center;
   justify-self: center;
 }
 
@@ -171,13 +171,13 @@
 
 #menuSection #pizza #salami {
   -ms-grid-column: 2;
-  grid-column-start: 2;
+      grid-column-start: 2;
   grid-column-end: 4;
   -ms-grid-row: 1;
-  grid-row-start: 1;
+      grid-row-start: 1;
   -ms-flex-item-align: start;
-  -ms-grid-row-align: start;
-  align-self: start;
+      -ms-grid-row-align: start;
+      align-self: start;
 }
 
 #menuSection #pizza #oliv {
@@ -200,13 +200,13 @@
 
 #menuSection #pizza #see {
   -ms-grid-column: 2;
-  grid-column-start: 2;
+      grid-column-start: 2;
   grid-column-end: 4;
   -ms-grid-row: 4;
-  grid-row-start: 4;
+      grid-row-start: 4;
   -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 #menuSection #pizza #mushroom {
@@ -233,21 +233,21 @@
 @media screen and (max-height: 800px) {
   #menuSection #pizza {
     -webkit-transform: scale(90%);
-    transform: scale(90%);
+            transform: scale(90%);
   }
 }
 
 @media screen and (max-height: 750px) {
   #menuSection #pizza {
     -webkit-transform: scale(80%);
-    transform: scale(80%);
+            transform: scale(80%);
   }
 }
 
 @media screen and (max-height: 700px) {
   #menuSection #pizza {
     -webkit-transform: scale(70%);
-    transform: scale(70%);
+            transform: scale(70%);
     top: -50px;
   }
 }
@@ -255,13 +255,13 @@
 @media screen and (max-height: 650px) {
   #menuSection #pizza {
     -webkit-transform: scale(60%);
-    transform: scale(60%);
+            transform: scale(60%);
     top: -100px;
   }
 }
 
 #menuSection #pizzaMob {
-  font-family: "Amatic SC", cursive;
+  font-family: 'Amatic SC', cursive;
   color: #fff;
 }
 
@@ -299,11 +299,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #menuSection #pizzaMob #pizzaList li img {
@@ -315,7 +315,7 @@
 
 #menuSection #pizzaMob #pizzaList li img:hover {
   -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+          transform: rotate(360deg);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }

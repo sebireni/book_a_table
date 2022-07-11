@@ -1,5 +1,5 @@
 html {
-  background: url("/src/media/tabledarker.png");
+  background: url('/src/media/tabledarker.png');
   background-attachment: fixed;
   background-size: cover;
 }
@@ -42,7 +42,7 @@ html #welcome #textWrapper {
 html #welcome #textWrapper h1 {
   position: relative;
   left: -10px;
-  font-family: "Amatic SC", cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 78px;
   font-weight: 700;
   text-shadow: 0px 0px 6px green;
