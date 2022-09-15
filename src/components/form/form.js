@@ -102,7 +102,7 @@ function Form () {
             <p>{time}</p>
             <p>{count} fő</p>
           </div>
-          <h1>Szeretettel várunk!</h1>
+          <h3>Szeretettel várunk!</h3>
         </div>
       )}
     </>
