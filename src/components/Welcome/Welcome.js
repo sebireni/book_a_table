@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import halfpizza from '../../media/halfpizza.png';
-import Logo from './Logo/Logo';
+import halfpizza from "../../media/halfpizza.png";
+import logo from "../../media/pizza_logo.png";
 
-import './Welcome.css';
+import "./Welcome.css";
 
-function Welcome () {
+function Welcome() {
   return (
-    <section id='welcome'>
-      <img id='halfPizza' src={halfpizza} alt='pizza'/>
+    <section id="welcome">
+      <img id="halfPizza" src={halfpizza} alt="pizza" />
 
-      <div id='textWrapper'>
-        <Logo/>
+      <div id="textWrapper">
+        <img src={logo} alt="logo" />
         <h1>Pizza Seekers'</h1>
       </div>
     </section>
