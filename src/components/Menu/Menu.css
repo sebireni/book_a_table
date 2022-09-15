@@ -2,7 +2,7 @@
   position: absolute;
   top: 5%;
   left: 5%;
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 54px;
   color: #fff;
 }
@@ -127,7 +127,7 @@
 #menuSection #pizza h3,
 #menuSection #pizza h4,
 #menuSection #pizza p {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   color: #fff;
 }
 
@@ -261,7 +261,7 @@
 }
 
 #menuSection #pizzaMob {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   color: #fff;
 }
 

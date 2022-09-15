@@ -66,7 +66,7 @@ function Menu () {
         </div>
       </div>
 
-      {/* menü telefon verzió */}
+      {/* menu for mobile */}
       <div id='pizzaMob'>
         <h2>Menü</h2>
         <ul id='pizzaList'>

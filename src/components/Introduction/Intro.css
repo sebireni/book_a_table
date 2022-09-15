@@ -3,7 +3,7 @@
   margin: auto auto 50px;
   padding: 60px;
   border-radius: 10px 50px;
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   color: #fff;
   background-color: rgba(30, 255, 0, 0.2);
 }
@@ -33,7 +33,7 @@
 
 #intro .wrap #signature {
   text-align: right;
-  font-family: 'Tangerine';
+  font-family: "Tangerine";
   font-size: 32px;
 }
 
