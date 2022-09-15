@@ -2,41 +2,41 @@ html {
   background: url("/src/media/tabledarker.png");
   background-attachment: fixed;
   background-size: cover;
+}
 
-  #welcome {
-    width: 100vw;
-    height: 100vh;
+#welcome {
+  width: 100vw;
+  height: 100vh;
 
-    color: #fff;
+  color: #fff;
 
-    #halfPizza {
-      height: 125%;
+  #halfPizza {
+    height: 125%;
 
-      position: absolute;
-      top: -12%;
-      right: 70%;
-    }
+    position: absolute;
+    top: -12%;
+    right: 70%;
+  }
 
-    #textWrapper {
-      display: flex;
-      flex-direction: column;
+  #textWrapper {
+    display: flex;
+    flex-direction: column;
 
-      position: absolute;
-      top: 50%;
-      left: 70%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-      h1 {
-        position: relative;
-        left: -10px;
-        font-family: "Amatic SC", cursive;
-        font-size: 78px;
-        font-weight: 700;
-        text-shadow: 0px 0px 6px green;
-      }
+    h1 {
+      position: relative;
+      left: -10px;
+      font-family: "Amatic SC", cursive;
+      font-size: 78px;
+      font-weight: 700;
+      text-shadow: 0px 0px 6px green;
     }
   }
 }
