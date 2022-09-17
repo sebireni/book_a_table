@@ -15,7 +15,7 @@ import fourthRot from "../../media/4rotated.png";
 import fifthRot from "../../media/5rotated.png";
 import sixthRot from "../../media/6rotated.png";
 
-function Menu() {
+const Menu = () => {
   return (
     <section id="menuSection">
       <div id="pizza">
@@ -147,6 +147,6 @@ function Menu() {
       </div>
     </section>
   );
-}
+};
 
 export default Menu;

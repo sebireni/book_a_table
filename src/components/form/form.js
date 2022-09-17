@@ -9,19 +9,15 @@ const Form1 = () => {
   const [count, setCount] = useState(null);
   const [submit, setSubmit] = useState(false);
 
-  // function getNameValue (val) {
-  //   setName(val.target.value);
-  // }
-
   const getNameValue = (val) => {
     setName(val.target.value);
   };
 
-  function getEmailValue(val) {
+  const getEmailValue = (val) => {
     setEmail(val.target.value);
-  }
+  };
 
-  function getDateValue(val) {
+  const getDateValue = (val) => {
     const dateInput = document.querySelector("#date");
     const today = new Date();
 
@@ -33,17 +29,17 @@ const Form1 = () => {
       today.getDate().toString().padStart(2, 0);
 
     setDate(val.target.value);
-  }
+  };
 
-  function getTimeValue(val) {
+  const getTimeValue = (val) => {
     setTime(val.target.value);
-  }
+  };
 
-  function getCountValue(val) {
+  const getCountValue = (val) => {
     setCount(val.target.value);
-  }
+  };
 
-  function validator(event) {
+  const validator = (event) => {
     event.preventDefault();
     setSubmit(false);
 
@@ -69,7 +65,7 @@ const Form1 = () => {
     }
 
     setSubmit(true);
-  }
+  };
   return (
     <>
       {!submit ? (

@@ -5,7 +5,7 @@ import logo from "../../media/pizza_logo.png";
 
 import "./Welcome.css";
 
-function Welcome() {
+const Welcome = () => {
   return (
     <section id="welcome">
       <img id="halfPizza" src={halfpizza} alt="pizza" />
@@ -16,6 +16,6 @@ function Welcome() {
       </div>
     </section>
   );
-}
+};
 
 export default Welcome;
