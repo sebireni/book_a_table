@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Intro.css";
-import ownerImage from "../../media/owner_07.jpg";
+import ownerImage from "../../assets/images/owner_07.jpg";
 
 const Intro = () => {
   return (

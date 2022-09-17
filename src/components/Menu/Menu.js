@@ -1,19 +1,19 @@
 import React from "react";
 import "./Menu.css";
 
-import salami from "../../media/salami.png";
-import olive from "../../media/olive.png";
-import margarita from "../../media/margarita.png";
-import seafood from "../../media/seafood.png";
-import mushroom from "../../media/mushroom.png";
-import vegetarian from "../../media/vegetarian.png";
+import salami from "../../assets/images/salami.png";
+import olive from "../../assets/images/olive.png";
+import margarita from "../../assets/images/margarita.png";
+import seafood from "../../assets/images/seafood.png";
+import mushroom from "../../assets/images/mushroom.png";
+import vegetarian from "../../assets/images/vegetarian.png";
 
-import salamiRot from "../../media/salamirotated.png";
-import oliveRot from "../../media/oliverotated.png";
-import margaritaRot from "../../media/margaritarotated.png";
-import seafoodRot from "../../media/seafoodrotated.png";
-import mushroomRot from "../../media/mushroomrotated.png";
-import vegetarianRot from "../../media/vegetarianrotated.png";
+import salamiRot from "../../assets/images/salamirotated.png";
+import oliveRot from "../../assets/images/oliverotated.png";
+import margaritaRot from "../../assets/images/margaritarotated.png";
+import seafoodRot from "../../assets/images/seafoodrotated.png";
+import mushroomRot from "../../assets/images/mushroomrotated.png";
+import vegetarianRot from "../../assets/images/vegetarianrotated.png";
 
 const Menu = () => {
   return (
