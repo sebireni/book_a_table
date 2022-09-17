@@ -6,7 +6,7 @@ import ownerImage from "../../assets/images/owner_07.jpg";
 const Intro = () => {
   return (
     <section id="intro">
-      <h2>Rólunk</h2>
+      <h2>DHDRHDTFHGJ</h2>
       <div className="wrap">
         <p>
           Családunk és barátaink biztatására 2012-ben megnyitottunk családi
