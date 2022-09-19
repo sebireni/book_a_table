@@ -1,7 +1,7 @@
 import React from "react";
 
-import halfpizza from "../../media/halfpizza.png";
-import logo from "../../media/pizza_logo.png";
+import halfpizza from "../../assets/images/halfpizza.png";
+import logo from "../../assets/images/pizza_logo.png";
 
 import "./Welcome.css";
 
