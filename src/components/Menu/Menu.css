@@ -1,4 +1,4 @@
-#menuSection h2 {
+.menuSection h2 {
   position: absolute;
   top: 5%;
   left: 5%;
@@ -7,7 +7,7 @@
   color: #fff;
 }
 
-#menuSection #pizza {
+.menuSection .pizza {
   position: relative;
   display: -ms-grid;
   display: grid;
@@ -19,7 +19,7 @@
           transition-duration: 0.5s;
 }
 
-#menuSection #pizza #pizzaPie {
+.menuSection .pizza .pizzaPie {
   -webkit-transform: scale(85%);
           transform: scale(85%);
   position: relative;
@@ -39,7 +39,7 @@
       justify-self: center;
 }
 
-#menuSection #pizza #pizzaPie li {
+.menuSection .pizza .pizzaPie li {
   position: absolute;
   top: 0;
   left: 0;
@@ -47,60 +47,60 @@
   height: 100%;
 }
 
-#menuSection #pizza #pizzaPie li img {
+.menuSection .pizza .pizzaPie li img {
   width: 200px;
   z-index: 4;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
 }
 
-#menuSection #pizza #pizzaPie li #salamiImg {
+.menuSection .pizza .pizzaPie li .salamiImg {
   position: absolute;
   left: 20%;
   top: -5%;
 }
 
-#menuSection #pizza #pizzaPie li #salamiImg:hover {
+.menuSection .pizza .pizzaPie li .salamiImg:hover {
   -webkit-transform: translateY(-20%) scale(115%);
           transform: translateY(-20%) scale(115%);
 }
 
-#menuSection #pizza #pizzaPie li #oliveImg {
+.menuSection .pizza .pizzaPie li .oliveImg {
   position: absolute;
   top: 3%;
   left: -2%;
 }
 
-#menuSection #pizza #pizzaPie li #oliveImg:hover {
+.menuSection .pizza .pizzaPie li .oliveImg:hover {
   -webkit-transform: translate(-20%, -15%) scale(115%);
           transform: translate(-20%, -15%) scale(115%);
 }
 
-#menuSection #pizza #pizzaPie li #margaritaImg {
+.menuSection .pizza .pizzaPie li .margaritaImg {
   position: absolute;
   top: 40%;
   left: -2%;
   z-index: 3;
 }
 
-#menuSection #pizza #pizzaPie li #margaritaImg:hover {
+.menuSection .pizza .pizzaPie li .margaritaImg:hover {
   -webkit-transform: translate(-20%, 15%) scale(115%);
           transform: translate(-20%, 15%) scale(115%);
 }
 
-#menuSection #pizza #pizzaPie li #seafoodImg {
+.menuSection .pizza .pizzaPie li .seafoodImg {
   position: absolute;
   left: 22%;
   top: 42%;
   z-index: 2;
 }
 
-#menuSection #pizza #pizzaPie li #seafoodImg:hover {
+.menuSection .pizza .pizzaPie li .seafoodImg:hover {
   -webkit-transform: translateY(20%) scale(115%);
           transform: translateY(20%) scale(115%);
 }
 
-#menuSection #pizza #pizzaPie li #mushroomImg {
+.menuSection .pizza .pizzaPie li .mushroomImg {
   position: absolute;
   top: 39%;
   right: 15%;
@@ -108,44 +108,44 @@
           transform: rotate(-2deg);
 }
 
-#menuSection #pizza #pizzaPie li #mushroomImg:hover {
+.menuSection .pizza .pizzaPie li .mushroomImg:hover {
   -webkit-transform: translate(20%, 15%) scale(115%);
           transform: translate(20%, 15%) scale(115%);
 }
 
-#menuSection #pizza #pizzaPie li #vegetarianImg {
+.menuSection .pizza .pizzaPie li .vegetarianImg {
   position: absolute;
   top: 5%;
   right: 18%;
 }
 
-#menuSection #pizza #pizzaPie li #vegetarianImg:hover {
+.menuSection .pizza .pizzaPie li .vegetarianImg:hover {
   -webkit-transform: translate(20%, -15%) scale(115%);
           transform: translate(20%, -15%) scale(115%);
 }
 
-#menuSection #pizza h3,
-#menuSection #pizza h4,
-#menuSection #pizza p {
+.menuSection .pizza h3,
+.menuSection .pizza h4,
+.menuSection .pizza p {
   font-family: "Amatic SC", cursive;
   color: #fff;
 }
 
-#menuSection #pizza p {
+.menuSection .pizza p {
   font-size: 24px;
 }
 
-#menuSection #pizza h3 {
+.menuSection .pizza h3 {
   font-size: 32px;
 }
 
-#menuSection #pizza h4 {
+.menuSection .pizza h4 {
   font-size: 24px;
   font-weight: bold;
   margin: auto 0 auto auto;
 }
 
-#menuSection #pizza .details {
+.menuSection .pizza .details {
   width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -160,7 +160,7 @@
   justify-self: center;
 }
 
-#menuSection #pizza #margaritaDetails {
+.menuSection .pizza .margaritaDetails {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1 / 3;
@@ -169,7 +169,7 @@
   grid-row: 3 /5;
 }
 
-#menuSection #pizza #salamiDetails {
+.menuSection .pizza .salamiDetails {
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 4;
@@ -180,7 +180,7 @@
       align-self: start;
 }
 
-#menuSection #pizza #oliveDetails {
+.menuSection .pizza .oliveDetails {
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-column: 1 / 3;
@@ -189,7 +189,7 @@
   grid-row: 1 / 3;
 }
 
-#menuSection #pizza #vegetarianDetails {
+.menuSection .pizza .vegetarianDetails {
   -ms-grid-column: 3;
   -ms-grid-column-span: 2;
   grid-column: 3 / 5;
@@ -198,7 +198,7 @@
   grid-row: 1 / 3;
 }
 
-#menuSection #pizza #seafoodDetails {
+.menuSection .pizza .seafoodDetails {
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 4;
@@ -209,7 +209,7 @@
       align-self: center;
 }
 
-#menuSection #pizza #mushroomDetails {
+.menuSection .pizza .mushroomDetails {
   -ms-grid-column: 3;
   -ms-grid-column-span: 2;
   grid-column: 3 / 5;
@@ -219,33 +219,33 @@
 }
 
 @media screen and (max-width: 940px) {
-  #menuSection #pizza {
+  .menuSection .pizza {
     display: none;
   }
 }
 
 @media screen and (min-width: 941px) {
-  #menuSection #pizzaMob {
+  .menuSection .pizzaMob {
     display: none;
   }
 }
 
 @media screen and (max-height: 800px) {
-  #menuSection #pizza {
+  .menuSection .pizza {
     -webkit-transform: scale(90%);
             transform: scale(90%);
   }
 }
 
 @media screen and (max-height: 750px) {
-  #menuSection #pizza {
+  .menuSection .pizza {
     -webkit-transform: scale(80%);
             transform: scale(80%);
   }
 }
 
 @media screen and (max-height: 700px) {
-  #menuSection #pizza {
+  .menuSection .pizza {
     -webkit-transform: scale(70%);
             transform: scale(70%);
     top: -50px;
@@ -253,19 +253,19 @@
 }
 
 @media screen and (max-height: 650px) {
-  #menuSection #pizza {
+  .menuSection .pizza {
     -webkit-transform: scale(60%);
             transform: scale(60%);
     top: -100px;
   }
 }
 
-#menuSection #pizzaMob {
+.menuSection .pizzaMob {
   font-family: "Amatic SC", cursive;
   color: #fff;
 }
 
-#menuSection #pizzaMob h2 {
+.menuSection .pizzaMob h2 {
   font-size: 54px;
   position: relative;
   text-align: center;
@@ -273,19 +273,19 @@
   margin-bottom: 50px;
 }
 
-#menuSection #pizzaMob h3 {
+.menuSection .pizzaMob h3 {
   font-size: 45px;
   text-align: center;
   color: green;
 }
 
-#menuSection #pizzaMob h4,
-#menuSection #pizzaMob p {
+.menuSection .pizzaMob h4,
+.menuSection .pizzaMob p {
   font-size: 26px;
   text-align: center;
 }
 
-#menuSection #pizzaMob hr {
+.menuSection .pizzaMob hr {
   border: 1px dotted red;
   width: 80%;
   margin: auto;
@@ -293,7 +293,7 @@
   margin-bottom: 50px;
 }
 
-#menuSection #pizzaMob #pizzaList {
+.menuSection .pizzaMob .pizzaList {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -306,14 +306,14 @@
           align-items: center;
 }
 
-#menuSection #pizzaMob #pizzaList li img {
+.menuSection .pizzaMob .pizzaList li img {
   width: 70%;
   margin: auto;
   display: block;
   margin-bottom: 15px;
 }
 
-#menuSection #pizzaMob #pizzaList li img:hover {
+.menuSection .pizzaMob .pizzaList li img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
   -webkit-transition: 0.5s;

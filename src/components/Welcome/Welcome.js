@@ -7,10 +7,10 @@ import "./Welcome.css";
 
 const Welcome = () => {
   return (
-    <section id="welcome">
-      <img id="halfPizza" src={halfpizza} alt="pizza" />
+    <section className="welcome">
+      <img className="halfPizza" src={halfpizza} alt="pizza" />
 
-      <div id="textWrapper">
+      <div className="textWrapper">
         <img src={logo} alt="logo" />
         <h1>Pizza Seekers'</h1>
       </div>

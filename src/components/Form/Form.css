@@ -1,4 +1,4 @@
-#flexcontainer {
+.flexcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,7 +46,7 @@ form {
   z-index: 5;
 }
 
-#outputReservation h3 {
+.outputReservation h3 {
   margin-top: 50px;
   font-family: "Amatic SC", cursive;
   font-size: 54px;
@@ -54,7 +54,7 @@ form {
   color: #fff;
 }
 
-#outputReservation #stickyNote {
+.outputReservation .stickyNote {
   font-family: "Amatic SC", cursive;
   font-size: 24px;
   width: 80%;
@@ -67,7 +67,7 @@ form {
   margin: 20px;
 }
 
-#submit {
+.submit {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;

@@ -5,7 +5,7 @@ import ownerImage from "../../assets/images/owner_07.jpg";
 
 const Intro = () => {
   return (
-    <section id="intro">
+    <section className="intro">
       <h2>Rólunk</h2>
       <div className="wrap">
         <p>
@@ -17,7 +17,7 @@ const Intro = () => {
           Éttermünk családias hangulattal és kiváló hazai ill. olasz borokkal
           vár titeket.
         </p>
-        <p id="signature">Cili és Laci</p>
+        <p className="signature">Cili és Laci</p>
         <img src={ownerImage} alt="owners" />
       </div>
     </section>

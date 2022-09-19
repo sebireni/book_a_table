@@ -18,7 +18,7 @@ const Form1 = () => {
   };
 
   const getDateValue = (val) => {
-    const dateInput = document.querySelector("#date");
+    const dateInput = document.querySelector(".date");
     const today = new Date();
 
     dateInput.min =
@@ -69,43 +69,43 @@ const Form1 = () => {
   return (
     <>
       {!submit ? (
-        <div id="flexcontainer">
+        <div className="flexcontainer">
           <form>
-            <div id="inputWrapper">
+            <div className="inputWrapper">
               <label htmlFor="name">Milyen névre foglalsz?</label>
-              <input type="text" id="name" onChange={getNameValue} />
+              <input type="text" className="name" onChange={getNameValue} />
 
               <label htmlFor="email">Mi az email címed?</label>
-              <input type="text" id="email" onChange={getEmailValue} />
+              <input type="text" className="email" onChange={getEmailValue} />
 
               <label htmlFor="pickdate">Melyik nap jöttök?</label>
               <input
                 type="date"
-                id="date"
+                className="date"
                 onSelect={getDateValue}
                 onChange={getDateValue}
               />
 
               <label htmlFor="time">Hány órakor?</label>
-              <input type="time" id="time" onChange={getTimeValue} />
+              <input type="time" className="time" onChange={getTimeValue} />
 
               <label htmlFor="count">Hányan lesztek?</label>
               <input
                 type="number"
                 min="1"
-                id="count"
+                className="count"
                 onChange={getCountValue}
               />
             </div>
 
-            <button id="submit" type="submit" onClick={validator}>
+            <button className="submit" type="submit" onClick={validator}>
               FOGLALÁS
             </button>
           </form>
         </div>
       ) : (
-        <div id="outputReservation">
-          <div id="stickyNote">
+        <div className="outputReservation">
+          <div className="stickyNote">
             <p>{name}</p>
             <p>{email}</p>
             <p>{date}</p>

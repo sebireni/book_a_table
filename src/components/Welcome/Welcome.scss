@@ -4,13 +4,13 @@ html {
   background-size: cover;
 }
 
-#welcome {
+.welcome {
   width: 100vw;
   height: 100vh;
 
   color: #fff;
 
-  #halfPizza {
+  .halfPizza {
     height: 125%;
 
     position: absolute;
@@ -18,7 +18,7 @@ html {
     right: 70%;
   }
 
-  #textWrapper {
+  .textWrapper {
     display: flex;
     flex-direction: column;
 

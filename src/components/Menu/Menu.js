@@ -17,69 +17,77 @@ import vegetarianRot from "../../assets/images/vegetarianrotated.png";
 
 const Menu = () => {
   return (
-    <section id="menuSection">
-      <div id="pizza">
+    <section className="menuSection">
+      <div className="pizza">
         <h2>Menü</h2>
-        <ul id="pizzaPie">
+        <ul className="pizzaPie">
           <li>
-            <img id="salamiImg" src={salami} alt="salami pizza slice" />
+            <img className="salamiImg" src={salami} alt="salami pizza slice" />
           </li>
           <li>
-            <img id="oliveImg" src={olive} alt="olive pizza slice" />
+            <img className="oliveImg" src={olive} alt="olive pizza slice" />
           </li>
           <li>
             <img
-              id="margaritaImg"
+              className="margaritaImg"
               src={margarita}
               alt="margarita pizza slice"
             />
           </li>
           <li>
-            <img id="seafoodImg" src={seafood} alt="seafood pizza slice" />
-          </li>
-          <li>
-            <img id="mushroomImg" src={mushroom} alt="mushroom pizza slice" />
+            <img
+              className="seafoodImg"
+              src={seafood}
+              alt="seafood pizza slice"
+            />
           </li>
           <li>
             <img
-              id="vegetarianImg"
+              className="mushroomImg"
+              src={mushroom}
+              alt="mushroom pizza slice"
+            />
+          </li>
+          <li>
+            <img
+              className="vegetarianImg"
               src={vegetarian}
               alt="vegetarian pizza slice"
             />
           </li>
         </ul>
 
-        <div className="details" id="margaritaDetails">
+        <div className="details margaritaDetails">
           <h3>Margarita</h3>
           <h4>1500 .-</h4>
           <p>paradicsomszósz, mozzarella, paradicsom, oreganó</p>
         </div>
 
-        <div className="details" id="salamiDetails">
+        <div className="details salamiDetails">
           <h3>Szalami</h3>
           <h4>1500 .-</h4>
           <p>mozzarella, paradicsomszósz, prémium szalámi, oreganó</p>
         </div>
 
-        <div className="details" id="oliveDetails">
+        <div className="details oliveDetails">
           <h3>Oliva</h3>
           <h4>1500 .-</h4>
           <p>tejszínes szósz, mozzarella, oliva, bazsalikom </p>
         </div>
 
-        <div className="details" id="vegetarianDetails">
+        <div className="details vegetarianDetails">
           <h3>Vegatariánus</h3>
           <h4>1500 .-</h4>
           <p>kalifornia paprika, zöldpaprika, cukkini, padlizsán, paradicsom</p>
         </div>
 
-        <div className="details" id="seafoodDetails">
+        <div className="details seafoodDetails">
           <h3>Tengeri</h3>
           <h4>1500 .-</h4>
           <p>pesztós alap, rák, calamari, mozzarella </p>
         </div>
 
-        <div className="details" id="mushroomDetails">
+        <div className="details mushroomDetails">
           <h3>Gomba</h3>
           <h4>1500 .-</h4>
           <p>paradicsomszósz, mozzarella, gomba, oregano</p>
@@ -87,12 +95,16 @@ const Menu = () => {
       </div>
 
       {/* menu for mobile */}
-      <div id="pizzaMob">
+      <div className="pizzaMob">
         <h2>Menü</h2>
-        <ul id="pizzaList">
+        <ul className="pizzaList">
           <li>
-            <img id="oneMob" src={margaritaRot} alt="margarita pizza slice" />
-            <div className="details" id="margaritaMob">
+            <img
+              className="oneMob"
+              src={margaritaRot}
+              alt="margarita pizza slice"
+            />
+            <div className="details margaritaMob">
               <h3>Margarita</h3>
               <p>paradicsomszósz, mozzarella, paradicsom, oreganó</p>
               <h4>1500 .-</h4>
@@ -101,8 +113,8 @@ const Menu = () => {
           </li>
 
           <li>
-            <img id="twoMob" src={salamiRot} alt="salami pizza slice" />
-            <div className="details" id="salamiMob">
+            <img className="twoMob" src={salamiRot} alt="salami pizza slice" />
+            <div className="details salamiMob">
               <h3>Szalami</h3>
               <p>mozzarella, paradicsomszósz, prémium szalámi, oreganó</p>
               <h4>1500 .-</h4>
@@ -111,8 +123,8 @@ const Menu = () => {
           </li>
 
           <li>
-            <img id="threeMob" src={oliveRot} alt="olive pizza slice" />
-            <div className="details" id="olivMob">
+            <img className="threeMob" src={oliveRot} alt="olive pizza slice" />
+            <div className="details olivMob">
               <h3>Oliva</h3>
               <p>tejszínes szósz, mozzarella, oliva, bazsalikom </p>
               <h4>1500 .-</h4>
@@ -122,11 +134,11 @@ const Menu = () => {
 
           <li>
             <img
-              id="fourMob"
+              className="fourMob"
               src={vegetarianRot}
               alt="vegetarian pizza slice"
             />
-            <div className="details" id="vegetarianMob">
+            <div className="details vegetarianMob">
               <h3>Vegatariánus</h3>
               <p>
                 kalifornia paprika, zöldpaprika, cukkini, padlizsán, paradicsom
@@ -137,8 +149,12 @@ const Menu = () => {
           </li>
 
           <li>
-            <img id="fiveMob" src={seafoodRot} alt="seafood pizza slice" />
-            <div className="details" id="seaMob">
+            <img
+              className="fiveMob"
+              src={seafoodRot}
+              alt="seafood pizza slice"
+            />
+            <div className="details seaMob">
               <h3>Tengeri</h3>
               <p>pesztós alap, rák, calamari, mozzarella</p>
               <h4>1500 .-</h4>
@@ -147,8 +163,12 @@ const Menu = () => {
           </li>
 
           <li>
-            <img id="sixMob" src={mushroomRot} alt="mushroom pizza slice" />
-            <div className="details" id="mushroomMob">
+            <img
+              className="sixMob"
+              src={mushroomRot}
+              alt="mushroom pizza slice"
+            />
+            <div className="details mushroomMob">
               <h3>Gomba</h3>
               <p>paradicsomszósz, mozzarella, gomba, oregano</p>
               <h4>1500 .-</h4>

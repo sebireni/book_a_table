@@ -1,4 +1,4 @@
-#intro {
+.intro {
   width: 90vw;
   margin: auto auto 50px;
   padding: 60px;
@@ -8,11 +8,11 @@
   background-color: rgba(30, 255, 0, 0.2);
 }
 
-#intro h2 {
+.intro h2 {
   font-size: 54px;
 }
 
-#intro .wrap {
+.intro .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,19 +25,19 @@
           align-items: center;
 }
 
-#intro .wrap p {
+.intro .wrap p {
   font-size: 24px;
   width: 100%;
   text-align: justify;
 }
 
-#intro .wrap #signature {
+.intro .wrap .signature {
   text-align: right;
   font-family: "Tangerine";
   font-size: 32px;
 }
 
-#intro .wrap img {
+.intro .wrap img {
   border: 10px solid white;
   min-width: 300px;
   width: 40%;
