@@ -8,6 +8,10 @@
   font-family: inherit;
   box-sizing: border-box;
 }
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
 ol,
 ul,
 li {
